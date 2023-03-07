@@ -1,0 +1,15 @@
+[tool.poetry]
+# Add your python package description below
+name = "poetry-demo"
+version = "0.1.0"
+description = ""
+authors = ["Loblaw Companies Limited"]
+readme = "README.md"
+packages = [{include = "poetry_demo"}]
+
+[tool.poetry.dependencies]
+python = "~3.10" # Must match Python version in environment.yml
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
